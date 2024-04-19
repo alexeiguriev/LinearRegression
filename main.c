@@ -18,7 +18,7 @@ int main(int argc, char *argv[])
         return 1;
     }
 
-    if (argc < (2 + (n * 2)))
+    if (argc != (2 + (n * 2)))
     {
         printf("Wrong parameters: %s\n", argv[0]);
         return 1;
